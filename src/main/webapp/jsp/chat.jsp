@@ -7,13 +7,8 @@
 <%--<div id="main" style="width: 1000px;height:400px;"></div>--%>
 <%--  form组  --%>
 
-
-
 聊天栏
 <div  id="title" name="title" style="height: 500px;border: solid 1px"></div>
-
-
-
 发送栏
 
 <input type="text" id="word" name="word"/>
@@ -39,7 +34,7 @@
         })
     });
 
-    
+
     goEasy.subscribe({
         channel: "cmfz", //替换为您自己的channel
         onMessage: function (message) {
