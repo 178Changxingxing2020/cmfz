@@ -31,9 +31,9 @@ mybatis:
 logging:
   level:
     root: error
-   # com.baizhi.cxx.dao: debug
-  #  com.baizhi.cxx.service: debug
-   # com.baizhi.cxx.serviceimpl: debug
-   # com.baizhi.cxx.controller: debug
+    com.baizhi.cxx.dao: debug
+    com.baizhi.cxx.service: debug
+    com.baizhi.cxx.serviceimpl: debug
+    com.baizhi.cxx.controller: debug
 
 

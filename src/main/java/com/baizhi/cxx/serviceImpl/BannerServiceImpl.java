@@ -1,5 +1,6 @@
 package com.baizhi.cxx.serviceImpl;
 
+import com.baizhi.cxx.annotation.AddOrSelectCache;
 import com.baizhi.cxx.dao.BannerDao;
 import com.baizhi.cxx.entity.Banner;
 import com.baizhi.cxx.Dto.BannerDto;
@@ -53,6 +54,7 @@ public class BannerServiceImpl implements BannerService {
 
 
     @Override
+    @AddOrSelectCache
     @Transactional(propagation = Propagation.SUPPORTS,readOnly = true)
     public BannerDto queryPersonByPage(Integer row, Integer page){
 
