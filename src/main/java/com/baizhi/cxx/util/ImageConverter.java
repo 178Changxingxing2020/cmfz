@@ -17,6 +17,7 @@ public class ImageConverter extends StringImageConverter {
         return cellData.getStringValue();
     }
 
+
     @Override
     public CellData convertToExcelData(String value, ExcelContentProperty contentProperty, GlobalConfiguration globalConfiguration) throws IOException {
         // 需要将value 由相对路径|网络路径 改为绝对路径
