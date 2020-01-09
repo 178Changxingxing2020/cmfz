@@ -39,6 +39,7 @@
         })
     });
 
+    
     goEasy.subscribe({
         channel: "cmfz", //替换为您自己的channel
         onMessage: function (message) {

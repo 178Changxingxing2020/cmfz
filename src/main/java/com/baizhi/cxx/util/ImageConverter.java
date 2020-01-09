@@ -25,6 +25,7 @@ public class ImageConverter extends StringImageConverter {
         String[] split = value.split("/");
         value = split[split.length-1];
         String url = property + "\\src\\main\\webapp\\upload\\img\\" + value;
+        System.out.println();
         return new CellData(FileUtils.readFileToByteArray(new File(url)));
     }
 
